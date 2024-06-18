@@ -1,0 +1,174 @@
+==================== SOAL 1 ====================
+
+Program HaloDunia
+Kamus
+    a, b, c, hasil : string
+Algoritma
+    a <- "Halo Dunia"
+    b <- "Halo Dunia"
+    c <- "Halo Dunia"
+    output(a)
+    output(b)
+    output(c)
+Endprogram
+
+==================== SOAL 2 ====================
+
+Program 
+Kamus
+    i : integer
+Algoritma
+    i <- 1
+    output(i)
+    i <- 1 + 1
+    output(i)
+    i <- 1 + 2
+    output(i)
+    i <- 1 + 3
+    output(i)
+    i <- 1 + 4
+    output(i)
+    i <- 1 + 5
+    output(i)
+Endprogram
+
+==================== SOAL 3 ====================
+
+Program 
+Kamus
+    i : integer
+Algoritma
+    i <- 1
+    i <- i + 2
+    i <- i + 3
+    i <- i + 4
+    i <- i + 5
+    output(i)
+Endprogram
+
+==================== SOAL 4 ====================
+
+Program
+Kamus
+    a, b, c, h : real
+Algoritma
+    input(a)
+    h <- a 
+    input(b)
+    h <- h + b
+    input(c)
+    h <- h + c
+    output(h)
+Endprogram
+
+==================== SOAL 5 ====================
+
+Program
+Kamus
+    a, b, c, d, h : integer
+Algoritma
+    input(a)
+    h <- a
+    input(b)
+    h <- h * b
+    input(c)
+    h <- h * c
+    input(d)
+    h  <- h * d
+    output(h)
+Endprogram
+
+==================== SOAL 6 ====================
+
+rogram
+Kamus
+    a, h : integer
+Algoritma
+    input(a)
+    h <- a
+    h <- a * a
+    h <- h * a
+    h <- h * a
+    h <- h * a
+    output(h)
+Endprogram
+
+==================== SOAL 7 ====================
+
+Program
+Kamus
+    a, b, c, x, y, z : integer
+    h : boolean
+Algoritma
+    input(a)
+    x <- a mod 2
+    h <- x == 1
+    output(h)
+    input(b)
+    y <- b mod 2
+    h <- y == 1
+    output(h)
+    input(c)
+    z <- a mod 2
+    h <- z == 1
+    output(h)
+Endprogram
+
+==================== SOAL 8 ====================
+
+Program
+Kamus
+    a, b, c, x, y, z : integer
+    h : boolean
+Algoritma
+    input(a)
+    x <- a mod 2
+    h <- x == 0
+    output(h)
+    input(b)
+    y <- b mod 2
+    h <- y == 0
+    output(h)
+    input(c)
+    z <- a mod 2
+    h <- z == 0
+    output(h)
+Endprogram
+
+==================== SOAL 9 ====================
+
+Program
+Kamus
+    a, b, c, x, y : integer
+    h : boolean
+Algoritma
+    input(a,b)
+    x <- a div b
+    y <- b div a
+    h <- x == 0 or y == 0
+    output(h)
+    input(a,b)
+    x <- a div b
+    y <- b div a
+    h <- x == 0 or y == 0
+    output(h)
+    input(a,b)
+    x <- a div b
+    y <- b div a
+    h <- x == 0 or y == 0
+    output(h)
+Endprogram
+
+==================== SOAL 10 ====================
+
+Program
+Kamus
+    a, b, c, d, e : integer
+Algoritma
+    input(a)
+    input(b)
+    input(c)
+    input(d)
+    input(e)
+    output((a < b) and (b < c) and (c < d) and (d < e))
+Endprogram

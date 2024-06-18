@@ -1,0 +1,103 @@
+IF-47-05
+PENGENALAN PEMROGRAMAN
+CII-1A3
+kode Dosen: IGR
+
+Nama Kelompok:
+1. Hilmi Musyafa (103012300283)
+2. Adika Ghivan Pratama (103012300212)
+
+==================== SOAL 1 ====================
+
+program Alphanumeric
+kamus 
+    k : byte
+    x : boolean
+algoritma
+    input(k)
+    x <- (k >= 48 and k <= 56) or (k >= 65 and k <= 90) or (k >= 97 and k <= 122)
+    output(x)
+endprogram
+
+==================== SOAL 2 ====================
+
+program Kabisat
+kamus
+    t : integer
+    k : boolean
+algoritma
+    input(t)
+    t <- t mod 4
+    k <- (k == 0)
+    output(k)
+endprogram
+
+==================== SOAL 3 ====================
+
+program Segitiga
+kamus 
+    a, b, c : integer
+    k : boolean
+algoritma
+    input(a, b, c)
+    k <- a+b > c and a+c > b and b+c > a
+    output(k)
+endprogram
+
+==================== SOAL 4 ====================
+
+program MiniMarket
+kamus 
+    diskon, cashback, kartu, ketersediaan : boolean
+    t : integer
+algoritma
+    input(t, ketersediaan)
+    kartu <- (ketersediaan == true)
+    diskon <- (t >= 100000)
+    cashback <- (t >= 200000 and kartu == true)
+
+    output ("Kartu?", kartu)
+    output ("Diskon?", diskon)
+    output ("Cashback?", cashback)
+endprogram
+
+==================== SOAL 5 ====================
+
+program MidPoint
+kamus
+    a, b, c : integer
+    x : boolean
+algoritma
+    input(a, b, c)
+    x <- (a + b) / 2 == c or (a + c) / 2 == b or (b + c) / 2 == 0
+    output(x)
+endprogram 
+
+==================== SOAL 6 ====================
+
+program DuaLingkaran
+kamus
+    x, y, z : integer
+    h : boolean
+algoritma
+    input(x, y, z)
+    h <- (x + y < z)
+    output(h)
+endprogram
+
+==================== SOAL 7 ====================
+
+program Pramuka
+kamus
+    n : integer
+    a, b, c, d, e, x : bool
+    i : integer
+algoritma
+    input(n)
+    for i <- 1 to n do
+        input(a, b, c, d, e)
+        x = x and (a == true and b == true and c == true and d == true and e == true)
+    endfor
+    output(x)
+endprogram
+    

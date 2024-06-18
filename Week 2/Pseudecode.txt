@@ -1,0 +1,48 @@
+IF-47-05
+PENGENALAN PEMROGRAMAN
+CII-1A3
+kode Dosen: IGR
+
+Nama Kelompok:
+1. Hilmi Musyafa (103012300283)
+2. Muhammad Febrian Hafiz (103012300332)
+
+==================== SOAL 2 ====================
+
+kamus
+	x, f : real
+
+algoritma
+
+	input(x)
+	
+	f <- ((x*x*x) + (3*x)) / ((x*x*x*x) - (3*x*x) + 4)
+
+	output(f)
+
+endprogram
+
+==================== SOAL 3 ====================
+
+kamus
+	x, d1, d2, d3 : integer
+
+algoritma
+
+	input(x)
+
+	if x < 0 then
+		output("Maaf angka input tidak boleh kurang dari 0, silahkan masukkan input lebih dari sama dengan 0")
+	repeat
+
+	else if x > 999 then
+		output ("Maaf angka input tidak boleh lebih dari 999, silahkan masukkan input kurang dari sama dengan 999")
+	repeat
+
+	d1 <- x div 100
+	d2 <- (x div 10) mod 10
+	d3 <- x mod 10
+
+	output(d1, d2, d3)
+
+endprogram

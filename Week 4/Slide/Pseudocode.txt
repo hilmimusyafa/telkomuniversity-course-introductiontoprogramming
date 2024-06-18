@@ -1,0 +1,60 @@
+IF-47-05
+PENGENALAN PEMROGRAMAN
+CII-1A3
+Kode Dosen: IGR
+
+Tugas oleh : Hilmi Musyafa (103012300283)
+
+==================== SOAL 2 ====================
+
+kamus 
+    iter, b, l, k, s : integer
+algoritma
+    input(n)
+    for iter <- 1 to n do
+        input(s)
+        l <- s * s
+        k <- 4 * s
+        output(l,k)
+    endfor
+endprogram
+
+==================== SOAL 3 ====================
+
+kamus 
+    iter, h, j, p, r : integer
+algoritma
+    input(h)
+    for iter <- 1 to h do
+        input(j)
+        p = p + j
+    endfor
+    r = p div h
+    output (r)
+endprgram
+
+==================== SOAL 4 ====================
+
+kamus 
+    iter, h, f : integer
+algoritma
+    input(h)
+    f <- 1
+    for iter <- h to 1 do
+        f = f * iter
+    endfor
+endprogram
+
+==================== SOAL 5 ====================
+
+kamus
+    iter, n, d : integer
+    s : boolean
+algoritma
+    input(n)
+    for iter <- 1 to n do
+        d <- n mod iter
+        s <- d == 0
+        output (iter,s)
+    endfor
+endprogram

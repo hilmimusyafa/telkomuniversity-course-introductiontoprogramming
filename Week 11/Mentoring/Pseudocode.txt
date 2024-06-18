@@ -1,0 +1,15 @@
+program DenominasiUang
+kamus
+	n : integer
+algoritma
+	input(n)
+	sepuluh <- n div 10000
+	n <- n % 10000
+	lima <- n div 5000
+	n <- n % 5000
+	seribu <- n div 100
+	output(sepuluh, "lembar 10000")
+	output(lima, "lembar 5000")
+	output(seribu, "lembar 1000")
+endprogram
+	

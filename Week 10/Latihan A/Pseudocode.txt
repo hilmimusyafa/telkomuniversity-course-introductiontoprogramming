@@ -1,0 +1,45 @@
+==================== SOAL 1 ====================
+program SelisihAbsolut
+kamus
+    p, h, s    : integer
+algoritma
+    input(h, s)
+    if h > s then
+        p <- h - S
+    endif
+    if h < s then
+        h <- h * -1
+        p <- h + Sf
+    endif 
+    output("Selisih angka Heiji dan Shinichi adala", p)
+endprogram
+==================== SOAL 2 ====================
+==================== SOAL 3 ====================
+program PersegiPanjang
+kamus 
+    ab, bc, cd, ad  : integer
+algoritma
+    input(ab, bc, cd, ad)
+    if ab == 0 and bc == 0 and cd == 0 and ad == 0 then
+        output("Angka harus lebih dari 0")
+    else if ab != 0 and bc != 0 and cd != 0 and ad != 0 then
+        if ab == cd and bc == ad then
+            output("Angka dapat membentuk persegi panjang")
+        else if ab == bc and bc == cd and cd == ad then
+            output("Angka dapat membentuk persegi")\
+        else 
+            output("Angka dapat membentuk persegi")
+        endif
+    endif
+endprogram
+==================== SOAL 4 ====================
+program PokemonIV
+kamus 
+    hp, atk, def, iv    : integer
+algoritma
+    input(hp, atk, def)
+    if (hp > 0 and atk > 0 and def > 0) and (hp < 15 and atk < 15 and def < 15) then
+        iv <- ((hp + atk + def) / 45) * 100
+        if iv > 0 and iv < 100 then
+            if 
+    
