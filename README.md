@@ -37,7 +37,7 @@ To get started with this branch, follow these steps:
 1. **Clone the Repository**:
     ```bash
     git clone -b CII-1A3 https://github.com/yourusername/telkomuniversity-course-introductiontoprogramming.git
-    cd your-repository
+    cd telkomuniversity-course-introductiontoprogramming
     ```
 
 2. **Set Up Go Environment**:
