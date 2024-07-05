@@ -61,7 +61,3 @@ If you would like to contribute to this branch, please follow these guidelines:
 ## Acknowledgments
 
 Special thanks to the course instructor and teaching assistants for their support and guidance throughout the course.
-
----
-
-Feel free to contact the course instructor or teaching assistants if you have any questions or need further assistance. Happy coding!
