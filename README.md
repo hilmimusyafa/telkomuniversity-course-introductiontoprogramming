@@ -1,5 +1,7 @@
 # CII-1A3 - Introduction to Programming - Telkom University
 
+![3](https://hackmd.io/_uploads/rJhY6U8YC.png)
+
 ## Description
 
 This branch contains Go code developed for the Introduction to Programming course, designated by the course code CII-1A3 Bachelor of Software Enginering, Telkom University. The projects and assignments in this repository are part of the curriculum for learning the fundamentals of programming, focusing on the Go programming language.
