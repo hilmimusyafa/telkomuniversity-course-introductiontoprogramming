@@ -1,6 +1,6 @@
 # CII-1A3 - Introduction to Programming - Telkom University
 
-![3](https://hackmd.io/_uploads/rJhY6U8YC.png)
+![3](https://github.com/user-attachments/assets/84ed7e86-31d4-4ecd-af8d-11c76991efee)
 
 ## Description
 
